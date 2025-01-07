@@ -17,7 +17,7 @@ The **DSA Helper Chrome Extension** is designed to assist Masai School students 
 ### Step 1: Clone the Repository
 Run the following command in your terminal:
 ```bash
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/yesutkarsh/MASAIBOT.git
 ```
 
 
