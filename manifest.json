@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Get Question Button",
+    "version": "1.0",
+    "description": "A Chrome extension to display a question from the webpage.",
+   "permissions": ["activeTab", "scripting"],
+   "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

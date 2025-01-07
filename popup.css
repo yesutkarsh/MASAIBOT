@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#question-display {
+  margin-top: 20px;
+  color: #333;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  font-weight: 100;
+  color: #007bff;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: left;
+  font-weight: 300;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+img {
+  height: 40px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* New styles for structured content */
+.response-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.explanation-section,
+.approach-section,
+.key-concepts-section,
+.implementation-section,
+.tips-section,
+.complexity-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+li {
+  position: relative;
+  padding: 8px 0 8px 25px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+li::before {
+  content: '•';
+  color: #007bff;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+pre, code {
+  background-color: rgb(57, 57, 57);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', monospace;
+  line-height: 1.4;
+}
+
